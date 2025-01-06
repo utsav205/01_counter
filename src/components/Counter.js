@@ -26,7 +26,7 @@ function Counter(){
     return (
         <>
             <h1>Counter Project</h1>
-            <h2>Counter : {counter} </h2>
+            <h3>Counter : {counter} </h3>
             <button 
                 onClick={handleIncrement}
             >Add Counter</button>
