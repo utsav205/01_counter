@@ -16,7 +16,7 @@ function Counter(){
     const handleDecrement = () => {
         if(counter - 1 >= 0){
             console.log(`counter : {counter}`);
-            setCounter(counter+1);
+            setCounter(counter-1);
         }
         else{
             setContent('Counter is not Decremet more than 0.');
